@@ -1,3 +1,32 @@
 .esports-info {
   display: inline-block;
+  border: 2px solid black;
+  border-radius: 3px;
+  height: 400px;
+  width: 32.5%;
+  overflow: auto;
+}
+
+.esports-info img
+{
+  width: 100%;
+  height: 300px;
+  object-fit: fill;
+}
+
+.esports-tournaments
+{
+  margin-top: 2em;
+}
+
+.esports-tournaments img
+{
+  width: 400px;
+  float: left;
+  margin-right: 1em;
+}
+
+.esports-tournaments article
+{
+  margin-left: 1em;
 }
